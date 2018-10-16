@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- Emily Torres -->
+<!-- 10/18/18 -->
+<!-- 1st Semester Schedule --> 
+
+<html>
+
+    <head>
+        <link rel="stylesheet" href="schedule.css"> <!-- link to CSS --> <!-- metadata --> 
+        <meta charset="utf-8">
+        <meta name="description" content="My first semester schedule using a table">
+        <meta name="keywords" content="Schedule, first semester, table">
+        <title>Emily's 1st Semester Schedule</title> 
+        <link rel="shortcut icon" href="facicon.ico"> <!-- favicon-->
+    </head>
+    
+    <body> 
+        
+        <!-- page content goes in between the body tags --> 
+        <table>
+            <!--I used <thead> for the headings of the schedule-->
+            <thead>
+                <tr>
+                    <th colspan="8">Emily's 1st Semester Schedule</th>
+                </tr>
+                
+                <tr> 
+                    <td> </td>
+                    <th>Cycle 1</th>
+                    <th>Cycle 2</th>
+                    <th>Cycle 3</th>
+                    <th>Cycle 4</th>
+                    <th>Cycle 5</th>
+                    <th>Cycle 6</th>
+                    <th>Cycle 7</th>
+                </tr>
+            </thead>
+            
+            <!--I used <tbody> for the body of the schedule-->
+            <tbody>
+                <tr>
+                    <!--I used <br /> so that "Period 1" would go onto the next line and <i> so that it would be in it italics-->
+                    <td>8:15-8:55am <br/><i>Period 1</i> </td>
+                    <td>Web Page Design</td>
+                    <td>Web Page Design</td>
+                    <td>Web Page Design</td>
+                    <td>Web Page Design</td>
+                    <td>Web Page Design</td>
+                    <td>Web Page Design</td>
+                    <td>AP Studio Art</td>
+                </tr>
+                
+                <tr>
+                    <td>9:00-9:15am <br/><i>Homeroom</i></td>
+                    <!--I used colspan="7" for this row so that it spans across 7 columns-->
+                    <td colspan="7">Homeroom</td>
+                </tr>
+                
+                <tr>
+                    <td>9:20-10:00am <br/><i>Flex</i></td>
+                    <!--Like the row above, I used colspan="7" so that it would go across 7 columns-->
+                    <td colspan="7">Flex</td>
+                </tr>
+                
+                <tr>
+                    <td>10:05-11:20am <br/><i>Period 2</i></td>
+                    <td>Spanish IV</td>
+                    <td>Contemporary World Lit</td>
+                    <td>AP Studio Art</td>
+                    <td>Modern US History</td>
+                    <td>Business Management</td>
+                    <td>Hon Philosophy</td>
+                    <td>Statistics</td>
+                </tr>
+                
+                <tr>
+                    <!--For the days I have lunch 2, I used rowspan="2" so that the data cell goes down two rows-->
+                    <td>11:25-11:50am <br/><i>Period 3-1</i></td>
+                    <td><i>Lunch 1</i></td>
+                    <td><i>Lunch 1</i></td>
+                    <td rowspan="2">Modern US History</td>
+                    <td rowspan="2">Business Management</td>
+                    <td><i>Lunch 1</i></td>
+                    <td rowspan="2">Statistics</td>
+                    <td><i>Lunch 1</i></td>
+                </tr>
+                
+                <tr>
+                    <td>11:55am-12:10pm <br /><i>Period 3-2</i></td>
+                    <!--In this row, for the days that I have lunch 1, I used rowspan="2"-->
+                    <td rowspan="2">Contemporary World Lit</td>
+                    <td rowspan="2">AP Studio Art</td>
+                    <td rowspan="2">Hon Philosophy</td>
+                    <td rowspan="2">Spanish IV</td>
+                </tr>
+                
+                <tr>
+                    <td>12:15-12:40pm <br /><i>Period 3-3</i></td>
+                    <td><i>Lunch 2</i></td>
+                    <td><i>Lunch 2</i></td>
+                    <td><i>Lunch 2</i></td>
+                </tr>
+                
+                <tr>
+                    <td>12:45-1:35pm <br /><i>Period 4</i></td>
+                    <td>Hon Philosophy</td>
+                    <td>Statistics</td>
+                    <td>Spanish IV</td>
+                    <td>Contemporary World Lit</td>
+                    <td>AP Studio Art</td>
+                    <td>Mordern US History</td>
+                    <td>Business Management</td>
+                </tr>
+                
+                <tr>
+                    <td>1:40-2:35pm <br /><i>Period 5</i></td>
+                    <td>Modern US History</td>
+                    <td>Business Management</td>
+                    <td>Hon Philosophy</td>
+                    <td>Statistics</td>
+                    <td>Spanish IV</td>
+                    <td>Contemporary World Lit</td>
+                    <td></td>
+                </tr>
+            </tbody>
+            
+            <!--I used <tfoot> for the foot of the schedule-->
+            <tfoot>
+                <td>After School Activities</td>
+                <!--Here I used colspan="7" so that the information would merge across 7 columns-->
+                <td colspan="7">Art class, Service, Homework</td>
+            </tfoot>
+
+        </table>
+        
+    </body> 
+</html>

@@ -1,0 +1,26 @@
+/*
+* Emily Torres
+* 10/18/18
+* 1st Semester Schedule 
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+    
+}
+table, td, th {border: 2px solid black;}
+
+table {border-collapse: collapse;}
+
+thead {background-color:greenyellow;}
+
+tbody {background-color:blanchedalmond;}
+
+tfoot {background-color:skyblue;}
